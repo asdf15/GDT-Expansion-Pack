@@ -1,10 +1,9 @@
 ﻿(function () {
-	var ready = function () {
-	/* Epic Random Features				*/
-		ExpPack.initCompatibilityChecks();
-		ExpPack.addCustomPrice();
-		ExpPack.addBlackBull();
-		DifSet.runStartUp();
+	ModConfig.enabledMods = [
+	{ script: 'gdt-modAPI/modAPI.js' },
+	{ script: 'GDT-Expansion-Pack-master/ExpansionPack.js' },
+        { script: 'ExpansionPack/ExpansionPack.js' }
+];
 	/*									*/
 			
 	/* Adds topics to the game 			*/
